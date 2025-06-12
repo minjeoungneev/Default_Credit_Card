@@ -4,7 +4,15 @@ This project applies a **tree based algorithms** to classify handwritten digits 
 
 ## 🧠 Objective
 
-To build and evaluate a basic deep learning model for digit recognition, while learning how a single layer activates neurons and a different number of features influences classification accuracy.
+Credit cards are one of the most popular loan products. Accurately predicting credit card holder's behavior could mitigate several risks such as asset losses, reputation, and operational risk. In this project, given six months of client's payment behavior, the goal is to build a predictive model to correctly classify the next month's payment status, whether the loan will default or not. 
+
+In classification problem, we consider confusion matrix. The components are 
+* True Positive: model predicts default when customer defaults.
+* True Negative: model predicts non-default when customer does not default.
+* False Positive: model predicts default when customer does not default.
+* False Negative: model predicts non-default when customer defaults.
+
+From a financial institution's perspective,
 
 ---
 
@@ -17,23 +25,23 @@ To build and evaluate a basic deep learning model for digit recognition, while l
 
 ## 🧪 Experiments
 
-The following model configurations were tested:
+The following models were tested:
 
-- **Hidden units:** 1, 2, 8, 16, 32, 64, 128, 256
-- **Feature Selection:** PCA, Random Forest Classifier
-- **Activation functions:** ReLU, Softmax 
-- **Optimizers:** root mean squared propagation (rmsprop)
-- **Batch sizes:** 32
-- **Epochs:** Up to 50 (with early stopping)
+- **Random Forest:** 
+- **AdaBoost:** 
+- **XGBoost:** 
+- **CatBoost:** 
+- **LightGBM:**
 
-Each configuration was evaluated based on validation accuracy and test accuracy.
+
+Each model was evaluated based on ___.
 
 ---
 
 ## 🧰 Tools & Libraries
 
 - Python 3.13.3
-- TensorFlow / Keras  
+-   
 - NumPy, Matplotlib for visualization  
 
 ---
@@ -42,12 +50,9 @@ Each configuration was evaluated based on validation accuracy and test accuracy.
 
 - Best performance achieved with:
   - **256 hidden neurons**
-  - **ReLU activation**
-  - **rmsprop optimizer**
-  - **Batch size of 32**
-  - **Full 784 Features**
 
-> Final test accuracy: **0.9699**
+
+> Final test accuracy: **0.**
 
 Visualizations include training/validation accuracy plots and confusion matrix of final predictions.
 
