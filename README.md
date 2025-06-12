@@ -79,7 +79,7 @@ You can run the notebook directly in **[Google Colab](https://colab.research.goo
 ## 🧠 Author
 
 **Minjeoung Neev**  
-Graduate student passionate about deep learning & data science  
+Graduate student passionate about machine learning & data science  
 📧 laminjon@gmail.com
 
 ---
