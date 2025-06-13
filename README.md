@@ -12,7 +12,7 @@ In classification problem, we consider confusion matrix. The components are
 * False Positive: model predicts default when customer does not default.
 * False Negative: model predicts non-default when customer defaults.
 
-From a financial institution's perspective,
+From a financial institution's perspective, catching false negative is important, because we don't want to miss monitoring defaulting customers, causing risk in financial losses. False positive becomes more relevant with the bank's goal to invest limited resources to prevent defaults. Like this, the cost function of a model can vary depending on the problem context. In this case, the latter assumption is applied.
 
 ---
 
