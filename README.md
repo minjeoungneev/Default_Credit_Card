@@ -6,13 +6,13 @@ This project applies a **tree based algorithms** to predict a class label and co
 
 Credit cards are one of the most popular loan products. Accurately predicting credit card holder's behavior could mitigate several risks such as asset losses, reputation, and operational risk. In this project, given six months of client's payment behavior, the goal is to build a predictive model to correctly classify the next month's payment status, whether the loan will default or not. 
 
-In classification problem, we consider confusion matrix. The components are 
+In classification problem, we consider the confusion matrix. The components are 
 * True Positive: model predicts default when customer defaults.
 * True Negative: model predicts non-default when customer does not default.
 * False Positive: model predicts default when customer does not default.
 * False Negative: model predicts non-default when customer defaults.
 
-From a financial institution's perspective, catching false negative is important, because we don't want to miss monitoring defaulting customers, causing risk in financial losses. False positive becomes more relevant with the bank's goal to invest limited resources to prevent defaults. Like this, the cost function of a model can vary depending on the problem context. In this case, the latter assumption is applied.
+From a financial institution's perspective, catching false negative is important, because the bank doesn't want to miss monitoring defaulting customers, causing risk in financial losses. False positive becomes more relevant with the bank's goal to invest limited resources to prevent defaults. Like this, the cost function of a model can vary depending on the context of the problem. In this case, the latter assumption is applied.
 
 ---
 
