@@ -1,6 +1,6 @@
 # Prediction on Credit Card Default
 
-This project applies a **tree based algorithms** to correctly predict whether a credit card customer will default or not in the 7th month of the given dataset, **Default Credit Card dataset**. 
+This project applies a **tree based algorithms** to predict a class label and compare performances, using **Default Credit Card dataset**. 
 
 ## 🧠 Objective
 
