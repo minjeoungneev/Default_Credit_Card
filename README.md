@@ -23,12 +23,20 @@ From a financial institution's perspective, catching false negative is important
 
 ---
 
-## 🧪 Experiments
+## 🧪 Procedure
 
-The following models were tested:
-
-- **Random Forest:** 
-- **AdaBoost:** 
+- **EDA:** explored features in relation to default status by bar plots, KDE plots, and correlation analysis.
+  Findings include
+  1. Target (default 22% /non-default 78%) is highly imbalanced -> I will perform various sampling techniques.
+  2. People who are delayed in payment for 2+ months have higher default %.
+  3. Male, lower education, and the married have higher default %
+  4. Early 20s' have higher default %.
+  5. Lower credit limit has higher default %.
+  
+- **Feature Engineering:**
+  1. Created 'SEX_MAR' by combining SEX and MARRIAGE.
+  2. Created 'PAY_RATIO_i' by dividing PAY_AMTi by BILL_AMTi.
+  3. Created 'CREDIT_UTILIZATION_i' by dividing BILL_AMTi by LIMIT_BAL.
 - **XGBoost:** 
 - **CatBoost:** 
 - **LightGBM:**
