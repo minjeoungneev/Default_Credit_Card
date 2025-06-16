@@ -25,6 +25,11 @@ From a financial institution's perspective, catching false negative is important
 
 ## 🧪 Procedure
 
+- **Data Cleaning:**
+  1. Removed 35 duplicated values.
+  2. Regrouped mislabeled categorical variables.
+  3. Fixed a variable name for consistency.
+
 - **EDA:** explored features in relation to default status by bar plots, KDE plots, and correlation analysis.
   Findings include
   1. Target (default 22% /non-default 78%) is highly imbalanced -> I will perform various sampling techniques.
