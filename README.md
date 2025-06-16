@@ -25,12 +25,12 @@ From a financial institution's perspective, catching false negative is important
 
 ## 🧪 Procedure
 
-- **Data Cleaning:**
+- **1. Data Cleaning:**
   1. Removed 35 duplicated values.
   2. Regrouped mislabeled categorical variables.
   3. Fixed a variable name for consistency.
 
-- **EDA:** explored features in relation to default status by bar plots, KDE plots, and correlation analysis.
+- **2. EDA:** explored features in relation to default status by bar plots, KDE plots, and correlation analysis.
   Findings include
   1. Target (default 22% /non-default 78%) is highly imbalanced -> I will perform various sampling techniques.
   2. People who are delayed in payment for 2+ months have higher default %.
@@ -38,10 +38,19 @@ From a financial institution's perspective, catching false negative is important
   4. Early 20s' have higher default %.
   5. Lower credit limit has higher default %.
   
-- **Feature Engineering:**
+- **3. Feature Engineering:**
   1. Created 'SEX_MAR' by combining SEX and MARRIAGE.
   2. Created 'PAY_RATIO_i' by dividing PAY_AMTi by BILL_AMTi.
   3. Created 'CREDIT_UTILIZATION_i' by dividing BILL_AMTi by LIMIT_BAL.
+  4. Created 'AVG_EXP_i' by calculating average expense in proportion to LIMIT_BAL.
+     --> Total 41 independent variables.
+     
+- **4. Feature Selection:**
+  1. Feature importance using random forest classifier --> Total 33 independent variables selected.
+ 
+- **5. Data Preprocessing:**
+  1. 
+- **6. Model Building:**
 - **XGBoost:** 
 - **CatBoost:** 
 - **LightGBM:**
