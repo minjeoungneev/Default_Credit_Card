@@ -49,7 +49,12 @@ From a financial institution's perspective, catching false negative is important
   1. Feature importance using random forest classifier --> Total 33 independent variables selected.
  
 - **5. Data Preprocessing:**
-  1. 
+  1. Sampling
+  2. Sampling - oversampling minority
+  3. Sampling - undersampling majority
+  4. SMOTE
+  5. Scaling
+     
 - **6. Model Building:**
 - **XGBoost:** 
 - **CatBoost:** 
