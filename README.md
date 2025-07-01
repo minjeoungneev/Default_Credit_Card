@@ -2,7 +2,7 @@
 
 This project applies a **tree based algorithms** to predict a class label and compare performances, using **Default Credit Card dataset**. 
 
-## 🧠 Objective
+## 🧠 Background & Objective
 
 Credit cards are one of the most popular loan products. Accurately predicting credit card holder's behavior could mitigate several risks such as asset losses, reputation, and operational risk. In this project, given six months of client's payment behavior, the goal is to build a predictive model to correctly classify the next month's payment status, whether the loan will default or not. 
 
@@ -56,12 +56,11 @@ From a financial institution's perspective, catching false negative is important
   5. Scaling
      
 - **6. Model Building:**
-- **XGBoost:** 
-- **CatBoost:** 
-- **LightGBM:**
+- **Bagging**: Random Forest Classifier
+- **Boosting**: AdaBoost, Gradient Boosting Machine (GBM), Light GBM
 
 
-Each model was evaluated based on ___.
+Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Miss Rate (1 - Recall).
 
 ---
 
