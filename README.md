@@ -56,10 +56,10 @@ From a financial institution's perspective, catching false negative is important
   5. Scaling
      
 - **6. Model Building:**
-- **Bagging**: Random Forest Classifier
-- **Boosting**: AdaBoost, Gradient Boosting Machine (GBM), Light GBM
+  1. **Bagging**: Random Forest Classifier
+  2. **Boosting**: AdaBoost, Gradient Boosting Machine (GBM), Light GBM
 
-
+- **7. Performance Metric:**
 Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Miss Rate (1 - Recall).
 
 ---
@@ -67,20 +67,21 @@ Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Mis
 ## 🧰 Tools & Libraries
 
 - Python 3.13.3
--   
-- NumPy, Matplotlib for visualization  
-
+- Numpy, Pandas for data manipulation
+- Seaborn, Matplotlib for visualization  
+- Sklearn for data preprocessing and modeling
 ---
 
 ## 📈 Results Summary
 
-- Best performance achieved with:
-  - **256 hidden neurons**
+- Best performance achieved with: LightGBM model trained on SMOTE processed data.
+> F1 score: **0.75**
+> Test accuracy: **0.72**
+> Precision: **0.68**
+> Recall: **0.84**
+> Miss Rate: **0.16**
 
 
-> Final test accuracy: **0.**
-
-Visualizations include training/validation accuracy plots and confusion matrix of final predictions.
 
 ---
 
