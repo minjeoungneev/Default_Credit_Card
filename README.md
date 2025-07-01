@@ -60,7 +60,7 @@ From a financial institution's perspective, catching false negative is important
   2. **Boosting**: AdaBoost, Gradient Boosting Machine (GBM), Light GBM
 
 - **7. Performance Metric:**
-Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Miss Rate (1 - Recall).
+Each model was evaluated based on <br> F1 Score, Accuracy, Precision, Recall, and Miss Rate (1 - Recall).
 
 ---
 
@@ -75,15 +75,11 @@ Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Mis
 ## 📈 Results Summary
 
 - Best performance achieved with: LightGBM model trained on SMOTE processed data.
-> F1 score: **0.75**
-> Test accuracy: **0.72**
-> Precision: **0.68**
-> Recall: **0.84**
-> Miss Rate: **0.16**
-
-
-
----
+<br> F1 score: **0.75**
+<br> Test accuracy: **0.72**
+<br> Precision: **0.68**
+<br> Recall: **0.84**
+<br> Miss Rate: **0.16**
 
 ---
 
@@ -92,9 +88,8 @@ Each model was evaluated based on F1 Score, Accuracy, Precision, Recall, and Mis
 You can run the notebook directly in **[Google Colab](https://colab.research.google.com/)** or locally:
 
 1. Clone the repo  
-   `git clone https://github.com/yourusername/MNST-Classification.git`
-
-2. Open `DNN_MNST_Classification.ipynb` in Jupyter or Colab
+   `git clone https://github.com/minjeoungneev/Default_Credit_Card.git`
+2. Open `Models.ipynb` in Jupyter or Colab
 
 3. Run all cells to train the model
 
@@ -102,9 +97,9 @@ You can run the notebook directly in **[Google Colab](https://colab.research.goo
 
 ## 📌 Learnings
 
-- Importance of tuning hidden units and optimizers for faster convergence
-- Impact of activation functions on performance and training stability
-- How batch size affects noise vs. convergence speed
+- Impact of various sampling techniques
+- Functions of various tree-based algorithms
+- Interpreting model results based on the real-world problem
 
 ---
 
@@ -113,10 +108,3 @@ You can run the notebook directly in **[Google Colab](https://colab.research.goo
 **Minjeoung Neev**  
 Graduate student passionate about machine learning & data science  
 📧 laminjon@gmail.com
-
----
-
-## 📜 License
-
-This project is under the MIT License. Feel free to fork and experiment!
-
